@@ -25,3 +25,7 @@
 &emsp;
 <img src="Images/ItemInteractionTree.png" alt="Item Interaction Tree" height=300 width=300/>
 </p>
+
+<h4><i>Programming and Development</i></h4>
+<p>&emsp;The two major parts that I wanted to work on during this project were the implementation of an inventory system and the control of the flow of interaction between the inventory items and the environment. The items in the scene, which I called "interactive objects", were fairly easy to implement. I created a parent script that handled the basic interactivity of these objects. Then, I made child scripts for each of the individual objects that extended this parent. The children mostly contain definitions for signals that print the appropriate text for the state of the game during an interaction attempt. In hindsight, there's most likely a way to reduce the scripts even further and only change a few variables.</p>
+<p>&emsp;The inventory took me a long time to do and I still want to start over on it. It was split between two main scripts, the inventory and individual inventory spaces. Spaces stored the data on what object they held and handled displaying their own selection highlights. But the inventory script handled everything else. It was way too much to put onto one script and the signals between the inventory and the spaces became some terrible spaghetti for me. This was with an extra week after the jam trying to untangle the mess. For all of the trouble it gave me, it does seem to work properly. I think starting over someday with some proper planning would lead to better results.</p>
