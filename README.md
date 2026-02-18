@@ -13,6 +13,8 @@
 <p>&emsp;This is a point-and-click style game controlled entirely with a mouse. Click on inventory items on the left side of the screen and use them to interact with elements in the game. You may click a selected inventory item again to deselect it.</p>
 
 <h3>Development Notes</h3>
+<p>If you'd like to watch the full jam process, <a href="https://www.youtube.com/playlist?list=PLB3nBZNJyn2GLNS7fJw1Znv3I8hsIe6ji">I streamed and recorded the whole thing</a>!</p>
+
 <h4><i>About the Jam</i></h4>
 <p>&emsp;Godot Wild Jam #74 took place on October 11, 2024. The main theme was "Haunted", with three optional themes or design elements called "Wildcards". I opted to use the Wildcard "It's Broken - The player needs to repair and/or restore something". All participants had until October 20, 2024 to design, develop, test, and publish their submissions.</p>
 
